@@ -1,5 +1,5 @@
 title: "BogoBogo"
-theme: minima
+remote_theme: just-the-docs
 
 header_pages:
   - UserGuide.md
