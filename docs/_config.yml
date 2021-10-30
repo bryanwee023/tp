@@ -1,5 +1,5 @@
 title: "BogoBogo"
-remote_theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
 
 header_pages:
   - UserGuide.md
