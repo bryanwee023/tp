@@ -61,21 +61,4 @@ public class ItemCard extends UiPart<Region> {
                 .forEach(tag -> tags.getChildren().add(new Label(tag.tagName)));
     }
 
-    @Override
-    public boolean equals(Object other) {
-        // short circuit if same object
-        if (other == this) {
-            return true;
-        }
-
-        // instanceof handles nulls
-        if (!(other instanceof ItemCard)) {
-            return false;
-        }
-
-        // state check
-        ItemCard card = (ItemCard) other;
-        return id.getText().equals(card.id.getText())
-                && item.equals(card.item);
-    }
 }

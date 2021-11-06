@@ -52,22 +52,5 @@ public class TransactionCard extends UiPart<Region> {
         totalPrice.setText(String.format("Total price: $%.2f", sp));
         totalItems.setText(String.format("Total items: %d", transaction.getOrderItems().size()));
     }
-
-    @Override
-    public boolean equals(Object other) {
-        // short circuit if same object
-        if (other == this) {
-            return true;
-        }
-
-        // instanceof handles nulls
-        if (!(other instanceof TransactionCard)) {
-            return false;
-        }
-
-        // state check
-        TransactionCard card = (TransactionCard) other;
-        return id.getText().equals(card.id.getText())
-                && transaction.equals(card.transaction);
-    }
+    
 }
