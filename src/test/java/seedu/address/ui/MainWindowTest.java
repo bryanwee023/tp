@@ -2,12 +2,16 @@ package seedu.address.ui;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import com.sun.javafx.collections.ImmutableObservableList;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.testfx.api.FxRobot;
 import org.testfx.framework.junit5.ApplicationExtension;
 import org.testfx.framework.junit5.Start;
+
+import com.sun.javafx.collections.ImmutableObservableList;
 
 import javafx.collections.ObservableList;
 import javafx.stage.Stage;
@@ -19,17 +23,14 @@ import seedu.address.logic.parser.exceptions.ParseException;
 import seedu.address.model.ReadOnlyInventory;
 import seedu.address.model.display.Displayable;
 
-import java.nio.file.Path;
-import java.nio.file.Paths;
-
 /**
  * Tests that all ui components are wired together correctly.
  */
 @ExtendWith(ApplicationExtension.class)
 public class MainWindowTest {
 
-    MainWindow mainWindow;
-    LogicStubWithUiMethods dummyLogic = new LogicStubWithUiMethods();
+    private MainWindow mainWindow;
+    private LogicStubWithUiMethods dummyLogic = new LogicStubWithUiMethods();
 
     @Start
     private void start(Stage stage) {

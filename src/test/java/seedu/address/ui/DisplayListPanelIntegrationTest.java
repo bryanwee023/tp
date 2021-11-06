@@ -4,22 +4,22 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static seedu.address.testutil.TypicalItems.getTypicalItems;
 import static seedu.address.testutil.TypicalOrders.getTypicalTransaction;
 
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
-import javafx.scene.control.ListView;
+import java.util.List;
+
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.testfx.api.FxRobot;
 import org.testfx.framework.junit5.ApplicationExtension;
 import org.testfx.framework.junit5.Start;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.scene.Scene;
+import javafx.scene.control.ListView;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 import seedu.address.model.display.DisplayList;
 import seedu.address.model.display.Displayable;
-
-import java.util.List;
 
 @ExtendWith(ApplicationExtension.class)
 class DisplayListPanelIntegrationTest {
