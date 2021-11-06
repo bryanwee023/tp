@@ -52,5 +52,5 @@ public class TransactionCard extends UiPart<Region> {
         totalPrice.setText(String.format("Total price: $%.2f", sp));
         totalItems.setText(String.format("Total items: %d", transaction.getOrderItems().size()));
     }
-    
+
 }

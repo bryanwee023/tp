@@ -50,7 +50,6 @@ public class AddCommandIntegrationTest {
 
         AddCommand addCommand = new AddCommand(validDescriptor);
         String expectedMessage = String.format(AddCommand.MESSAGE_SUCCESS_NEW, validItem);
-        System.out.println(expectedMessage);
         Model expectedModel = new ModelManager();
         expectedModel.addItem(validItem);
 
