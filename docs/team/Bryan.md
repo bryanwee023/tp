@@ -1,7 +1,7 @@
 ---
 layout: page 
 title: Bryan's Project Portfolio 
-Page parent: The Team
+parent: The Team
 ---
 
 ### Project: BogoBogo
@@ -39,6 +39,8 @@ Given below are my contributions to the project.
 * **Testing**: Added and maintain testing for features other than my own:
     * Tests for storage component [\#188](https://github.com/AY2122S1-CS2103-F10-2/tp/pull/188)
     * Tests for order related commands [\#74](https://github.com/AY2122S1-CS2103-F10-2/tp/pull/74)
+    * Tests for ui components [\#194](https://github.com/AY2122S1-CS2103-F10-2/tp/pull/194) <br>
+_Creating tests for ui was particularly time-consuming since testing JavaFX components requires the use of additional frameworks (TestFX)._
     
 * **Code
   contributed**: [RepoSense link](https://nus-cs2103-ay2122s1.github.io/tp-dashboard/?search=&sort=groupTitle&sortWithin=title&timeframe=commit&mergegroup=&groupSelect=groupByRepos&breakdown=true&checkedFileTypes=docs~functional-code~test-code~other&since=2021-09-17&tabOpen=true&tabType=authorship&tabAuthor=bryanwee023&tabRepo=AY2122S1-CS2103-F10-2%2Ftp%5Bmaster%5D&authorshipIsMergeGroup=false&authorshipFileTypes=docs~functional-code~test-code&authorshipIsBinaryFileTypeChecked=false)
